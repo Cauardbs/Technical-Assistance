@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    text-decoration: none;
+    font-family: 'Exo'
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 150px;
+    position: relative;
+    background-image: url('./Images/bzqNMj.gif');
+    overflow: hidden;
+  }
+
+  
+  .logo {
+    height: 70px;
+    animation: logo;
+    animation-duration: 18s;
+    position: absolute;
+    left: 25%; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  @keyframes logo {
+    0% {left: 0%; height: 20px;}
+    25% {left: 25%; height: 70px;}
+    50% {left: 75%; height: 20px;}
+    75% {left: 25%; height: 70px;}
+    100% {height: 20px; left: 0%;}
+  }
+
+  .banner {
+    background-image: url('./Images/sertemarbanner.png') ;
+    min-height: 100vh;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.who {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.title1 {
+  font-size: 50px; 
+  color: #048ABF; 
+  text-align: center;
+}
+
+.about {
+  line-height: 2.0;
+  text-align: center;
+  max-width: 80vw ;
+  font-size: 22px;
+  margin: 10px auto;
+}
+
+.beneficios {
+  font-size: 50px;
+  text-align: center;
+  color: #048ABF;
+  margin-top: 60px;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  max-width: 100vw;
+}
+
+.benefits {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 33%;
+}
+
+.png {
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  margin: 0px auto;
+}
+
+.benefits-title {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+
+.benefits-about {
+  width: 90%;
+  margin: 10px auto;
+  height: 120px;
+}
+
+.request-container {
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.request {
+  background-color: #048ABF; 
+  color: #000; 
+  padding: 10px 50px; 
+  border-radius: 7px; 
+  text-decoration: none; 
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  border: none;
+  margin: 0 auto;
+}
+
+.request:hover {
+  background-color: #FA1505;
+  font-size: 13px;
+  color: #fff;
+}
+
+.contact {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: #048ABF;
+}
+.contact-t {
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Exo';
+  padding-right: 1rem;
+  padding-left: 1rem;  
+}
+
+.form input,
+.form textarea,
+.form button {
+    display: block;
+    width: 50%;
+}
+
+.form input, 
+.form textarea {
+  font: inherit;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 32px;
+}
+
+.form textarea {
+  min-height: 50px;
+  resize: vertical;
+
+}
+
+.form button {
+  display: block;
+  padding: 1rem;
+  background: #048ABF;
+  color: black;
+  font: inherit;
+  font-size: 24px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+  border-radius: 32px;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 15px;
+}
+
+.form button:hover {
+  font-size: 22px;
+  color: #fff;
+  padding: 0.7rem;
+  background: #FA1505;
+}
+
+#pimagem {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-size: 17px;
+  background-color: #048ABF;
+  transition: 1s;
+  font-weight: bold;
+}
+
+
+footer {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('https://w7.pngwing.com/pngs/262/262/png-transparent-green-turquoise-background-texture-blue-other.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-blend-mode: saturation(0.5);
+}
+
+.textos {
+  font-size: 20px;
+}
+
+
+.wpp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+
+}
+
+.fa-whatsapp {
+  color: white;
+  margin-top: 16px;
+}
+
+
+
+.footer-navigation {
+  display: none;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media(max-width: 768px) {
+  body {
+    max-width: 100vw;
+  }
+
+  @keyframes logo {
+    0% {left: 0%; height: 20px;}
+    25% {left: 25%; height: 70px;}
+    50% {left: 50%; height: 20px;}
+    75% {left: 25%; height: 70px;}
+    100% {height: 20px; left: 0%;}
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    animation: logo;
+    animation-duration: 17s;
+    position: absolute;
+    left: 25%; 
+    animation-iteration-count: infinite;
+  }
+
+  .banner {
+    max-width: 100vw;
+    min-height: 250px;
+    background-image: url('./Images/sandro-katalina-SERTEMAR.jpg');
+    background-size: 100% 100%;
+    background-position: auto auto;
+    position: relative;
+  }
+
+
+  .who {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .benefits-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 70px;
+  }
+
+  .benefits {
+    width: 100%;
+  }
+
+  .contact {
+    margin-top: 120px;
+  }
+
+  .contact-t {
+    text-align: center;
+  }
+ 
+}

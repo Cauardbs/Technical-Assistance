@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sertemar Eletrônica</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header><img class="logo" src="./Images/sertemar.png"></header>
+  <a class="wpp-link" href="https://web.whatsapp.com/send?phone=558997209517 target=" target="_blank""">
+    <i class="fa fa-whatsapp"></i>
+  </a>
+
+  <div class="banner"></div>
+  <main>
+    <div class="who">
+      <h1 class="title1">ASSISTÊNCIA TÉCNICA ESPECIALIZADA</h1>
+      <p class="about"> Somos assistência técnica especializada em Tvs,filmadoras Panasonic e Sony, máquinas fotográficas DSLR Nikon , Canon além de especialistas em lentes Nikon,Canon e Sigma.
+        Possuímos técnicos especializados e treinados pelo fabricante para garantir qualidade ,segurança e eficiência no serviço prestado. Se precisar de ajuda , entre em contato conosco hoje mesmo</p>
+    </div>
+
+    <h2 class="beneficios">Benefícios:</h1>
+      <div class="benefits-container">
+        <div class="benefits">
+          <img class="png" src="./Images/suporte-tecnico.png">
+          <span class="benefits-title">ORÇAMENTO</span>
+          <div class="about-container">
+            <p class="benefits-about">Traga o seu aparelho para uma avaliação. Orçamento rápido e seguro.</p>
+          </div>
+          <div class="request-container">
+            <a class="request">SOLICITE AGORA</a>
+          </div>
+        </div>
+
+        <div class="benefits">
+          <img class="png" src="./Images/house-and-lock.png">
+          <span class="benefits-title">COMODIDADE E SEGURANÇA</span>
+          <div class="about-container">
+            <p class="benefits-about">Solicite a coleta do seu aparelho. Buscamos em sua casa e fazemos o orçamento na assistência.</p>
+          </div>
+          <div class="request-container">
+            <a class="request">SOLICITE AGORA</a>
+          </div>
+        </div>
+
+        <div class="benefits">
+          <img class="png" src="./Images/warranty.png">
+          <span class="benefits-title">GARANTIA DO SERVIÇO</span>
+          <div class="about-container">
+            <p class="benefits-about">Temos a maior garantia do mercado para o conserto realizado. Serviço de alta qualidade conforme padrões técnicos mundiais.</p>
+          </div>
+          <div class="request-container">
+            <a class="request">SOLICITE AGORA</a>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <span class="contact">Contato:</span>
+  <p class="contact-t">Você pode encaminhar suas solicitações, dúvidas, sugestões ou criticas através do formulário abaixo.
+  </p>
+  <form class="form" action="https://formsubmit.co/cauardbs@gmail.com" method="POST" class="form">
+    <input type="text" name="Nome" placeholder="Nome" id="name" class="glob" required />
+    <input type="email" name="Email" placeholder="Email" id="email" class="glob" required />
+    <input type="tel" name="Telefone" placeholder="Telefone" id="telefone" required />
+    <textarea name="Assunto" placeholder="Assunto" class="glob" required></textarea>
+    <label for="imagem">Problema de imagem?</label>
+    <select name="Problema de Imagem" id="pimagem">
+      <option value="SEM DEFEITO">Sem Defeito</option>
+      <option value="PIXEL APAGADO OU ACESO">Pixel Apagado ou Aceso</option>
+      <option value="LINHA VERTICAL NO PAINEL LCD">Linha Vertical No Painel LCD</option>
+      <option value="QUADRICULANDO">Quadriculando</option>
+      <option value="SEM COR">Sem Cor</option>
+      <option value="NÃO ACENDE DISPLAY">Não Acende Display</option>
+      <option value="TELA ESCURA COM BACK LIGHT">Tela Escura com Back Light</option>
+      <option value="PAINEL LCD COM DEFEITO">Painel LCD Com Defeito</option>
+    </select>
+    <label for="ligar/desligar">Problema de Ligar/Desligar?</label>
+    <select name="Problema em Ligar/Desligar" id="pimagem">
+      <option value="SEM DEFEITO">Sem Defeito</option>
+      <option value="DESLIGA SOZINHO">Desliga Sozinho</option>
+      <option value="NÃO DESLIGA">Não Desliga</option>
+      <option value="NÃO LIGA (FICA APENAS EM STANDBY)">Não Liga (Fica Apenas em Standby)</option>
+    </select>
+
+    <label for="sintonia/sinal">Problema de Sintonia/Sinal?</label>
+    <select name="Sintonia/Sinal" id="pimagem">
+      <option value="SEM DEFEITO">Sem Defeito</option>
+      <option value="NÃO SINTONIZA CANAIS/ESTAÇÕES">Não Sintoniza Canais/Estações</option>
+      <option value="PROBLEMA NA RECEPÇÃO TV ">Problema Na Recepção TV</option>
+      <option value="RECEPÇÃO FRACA">Receção Fraca</option>
+    </select>
+    <label for="CONEXÕES DE ENTRADA">Problema de Conexões de Entrada?</label>
+    <select name="CONEXÕES DE ENTRADA" id="pimagem">
+      <option value="SEM DEFEITO">Sem Defeito</option>
+      <option value="NÃO CONECTA BLUETOOTH">Não Conecta Bluetooth</option>
+      <option value="NÃO CONECTA INTERNET">Não Conecta Internet</option>
+      <option value="NÃO CONECTA WIRELESS">Não Conecta Wireless</option>
+      <option value="NÃO RECONHECE FORMATOS VIA USB">Não Reconhece Formatos Via USB</option>
+      <option value="NÃO FUNCIONA HDMI">Não Funciona HDMI</option>
+      <option value="NÃO FUNCIONA AV">Não Funciona AV</option>
+      <option value="CONTROLE REMOTO NAO ATUA">Controle Remoto Não Atua</option>
+    </select>
+    <input type="hidden" name="_captcha" value="false" />
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/Obrigado.html" />
+    <button type="submit">Enviar</button>
+  </form>
+
+  <footer>
+    <div class="conteudo-footer">
+      <div class="endereco">
+        <span style="font-weight: bold; font-size: 20px" ;>Endereço</span>
+        <p class="textos">Rua Cajazeiras, 446 Centro.</p>
+        <p class="textos">CEP: 65015-080</p>
+      </div>
+      <div class="telefones">
+        <span style="font-weight: bold; font-size: 20px;">Telefone</span>
+        <p class="textos">Fone: (98) 98155-3102</p>
+      </div>
+      <div class="email">
+        <span style="font-weight: bold; margin-top: 20px; font-size: 20px;">E-mail</span>
+        <p class="textos">sertemareletronica@hotmail.com</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
